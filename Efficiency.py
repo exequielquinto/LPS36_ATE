@@ -134,7 +134,7 @@ def min_load():
     eload2.write('LOAD ON')
 
 burn_in()
-time.sleep(6) # burn In time at full full before capturing efficiency
+time.sleep(600) # burn In time at full full before capturing efficiency
 results = pd.DataFrame()
 
 for step in steps:
